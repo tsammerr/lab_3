@@ -1,8 +1,8 @@
 try:
     start = int(input('start -> '))
     end = int(input('end -> '))
-    while start<= end:
+    for item in range(start, end):
+        print(f'sum = {start} + {end} = {start + end}\navg = {}')
         start+=1
-        print(f'sum = {start} + {start} = {start + start}')
 except Exception as ex:
     print(ex)
